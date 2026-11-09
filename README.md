@@ -1,54 +1,42 @@
-<h1 align="center">hi, i'm pranavi ✦</h1>
+## Pranavi Sammidi
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=C77DFF&center=true&vCenter=true&width=560&lines=I+build+AI+agents+that+actually+do+things;walk-in+digital+twins+on+Meta+Quest;hackathon+goblin+%E2%80%A2+cat+person+%E2%80%A2+fashion+girlie" alt="typing intro" />
-</p>
+I build AI agent systems grounded in real data, along with the software around them: mixed-reality interfaces, real-time backends and privacy controls.
 
-<p align="center">
-  I like building things that feel a little bit like the future: AI agents that reason over real data,<br/>
-  mixed reality you can walk around in, and apps that make someone's day easier.
-</p>
+📫 pranavisammidi@gmail.com
 
 ---
 
-### ✦ currently
+### Selected work
 
-- 🥽 building **[ForeSite](https://github.com/prxnavi/ForeSite)**, a building digital twin you walk inside on a Meta Quest, run by eight NVIDIA Nemotron agents
-- 🧠 going deeper on machine learning and neural networks
-- 🎤 teaching other students Git and GitHub through [workshops](https://github.com/prxnavi/Github-Workshop)
-- 🤝 always down to team up on something new, especially at hackathons
+**[ForeSite](https://github.com/prxnavi/ForeSite)**: an AI digital twin of a building that you walk inside on Meta Quest  
+Eight NVIDIA Nemotron agents investigate equipment risk and structural changes, simulate cascading failures, price the impact from lease terms, and verify the fix. The entire backend is a single SpacetimeDB module that holds the knowledge graph, the structural engine, the simulator, the agent runtime and multiplayer sync.
+- **15/15** answers correct with the system's tools, vs 11/15 for the same model without them; **4× faster** per question
+- **58 → 11** model calls per investigation; **100%** of spoken answers fact-checked against the data
+- **~38 ms** median sync across headsets; **~1,700** 24-hour failure simulations per second inside the database
 
-### ✦ things i've built
+`Unity 6` `C#` `OpenXR` `TypeScript` `SpacetimeDB` `NVIDIA Nemotron` `Whisper`
 
-| | project | what it is |
-|---|---|---|
-| 🏢 | **[ForeSite](https://github.com/prxnavi/ForeSite)** | AI digital twin on Meta Quest. Eight Nemotron agents on SpacetimeDB predict cascading failures, price the damage and verify the fix. |
-| 🔒 | **[AgentPrivacy](https://github.com/prxnavi/agentprivacy)** | An AI assistant for nonprofit clinics that never sees real personal data. Every tool call is checked before it runs, all on an IBM z17. |
-| ⚔️ | **[Academic Warfare](https://github.com/prxnavi/academic-warfare)** | Turns your syllabus into AI trivia battles against your classmates, with a course leaderboard. |
-| 🧸 | **[Pochi](https://github.com/prxnavi/pochi)** | Peer-to-peer trading for blind box collectibles (Sonny Angels first, obviously). |
-| 💗 | **[HealthBuddy](https://github.com/prxnavi/HealthBuddy)** | A health literacy app for women. |
+**[AgentPrivacy](https://github.com/prxnavi/agentprivacy)**: an AI assistant for nonprofit clinics that never sees personal data · [live demo](https://agentprivacy-run-replay-1.vercel.app/)  
+Sensitive values are swapped for placeholders before the model sees anything, and every tool call is checked against the user's role before it runs. It all runs on a local LLM on an IBM z17, so data never leaves the machine.
+- **0 of 12** attacks got data out, vs 2 of 12 for an unprotected agent, with **0** normal tasks wrongly blocked
 
-### ✦ toolbox
+`Python` `IBM LinuxONE` `local LLM`
 
-<p>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
-  <img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white" />
-  <img src="https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white" />
-  <img src="https://img.shields.io/badge/Meta%20Quest-0467DF?style=flat-square&logo=meta&logoColor=white" />
-  <img src="https://img.shields.io/badge/NVIDIA%20Nemotron-76B900?style=flat-square&logo=nvidia&logoColor=white" />
-  <img src="https://img.shields.io/badge/SpacetimeDB-1F1F1F?style=flat-square" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
-</p>
+**[Academic Warfare](https://github.com/prxnavi/academic-warfare)**: competitive trivia generated from university syllabi  
+It ingests a course syllabus and generates questions with Gemini (grounded by web search). Classmates then play live battles that feed a course leaderboard.
 
-### ✦ off the keyboard
+`TypeScript` `React` `Express` `MongoDB` `Redis` `Socket.io` `Gemini`
 
-🐈 cats, always &nbsp;·&nbsp; 👗 fashion and design &nbsp;·&nbsp; 🧸 blind box collecting
+**[Pochi](https://github.com/prxnavi/pochi)**: peer-to-peer trading for blind-box collectibles  
+Users can list figures, browse, and propose 1-for-1 trades, with Google sign-in. It's built on Supabase with row-level security.
+
+`TypeScript` `Next.js` `Supabase`
+
+**[HealthBuddy](https://github.com/prxnavi/HealthBuddy)**: a health literacy app for women, built in Swift.
 
 ---
 
-<p align="center">
-  📫 <a href="mailto:pranavisammidi@gmail.com">pranavisammidi@gmail.com</a> &nbsp;·&nbsp; thanks for stopping by ✦
-</p>
+### Also
+
+- I created and taught a [Git and GitHub workshop](https://github.com/prxnavi/Github-Workshop) for students.
+- Right now I'm going deeper on ML: neural networks and agent evaluation.
